@@ -1,0 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212121;
+  /* border: 2px solid white; */
+}
+
+.recipe-list {
+  height: 90%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  color: darkblue;
+  margin-left: 10px;
+}
+
+
+
+li::marker {
+  content: "🔪";
+}

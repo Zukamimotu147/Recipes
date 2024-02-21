@@ -1,0 +1,48 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #212121;
+  /* border: 2px solid red; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95%;
+  width: 90vw;
+  background-color: beige;
+  /* border: 2px solid yellow; */
+}
+
+.header h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.header img {
+  border-radius: 50px;
+}
+
+.content {
+  padding: 6.25rem;
+}
+
+section > h2 {
+  color: #EE9C21;
+}
+
